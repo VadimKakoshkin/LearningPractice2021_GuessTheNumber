@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Игра "Угадай число" - Средняя сложность</title>
+  </head>
+
+  <body>
+    <h1>Игра "Угадай число"</h1><a href="changelog.html">v0.4</a>
+
+    <p>Мы загадали число от 1 до 100. Сможете ли вы отгадать его за 10 попыток или меньше? Мы скажем вам, если ваше число больше или меньше загаданного.</p>
+
+    <div class="form">
+      <label for="guessField">Введите число: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Подтвердить число" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script src="js/guess_medium.js"></script>
+
+    <button><a href="index.html">Вернуться на главную</a></button>
+
+  </body>
+</html>

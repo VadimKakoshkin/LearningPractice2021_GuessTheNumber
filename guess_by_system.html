@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Игра "Загадай число"</title>
+</head>
+<body>
+    
+    <p>Загадайте число от 1 до 100, а мы попробуем его отгадать.</p>
+
+    <div class="form">
+      <label for="guessField">Введите число: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Подтвердить число" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script src="js/guess_by_system.js"></script>
+
+    <button><a href="index.html">Вернуться на главную</a></button>
+
+</body>
+</html>
